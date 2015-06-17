@@ -1,0 +1,26 @@
+.panel-padding {
+    padding: 10px;
+    border: 1px solid gray;
+    border-radius: 5px;
+}
+
+.empty_border {
+    table {
+        
+        tr {
+            td {
+                border: none;
+            }
+        }
+    }
+}
+a{
+	text-decoration:underline;
+}
+.top-space20{
+	padding-top:20px;
+}
+
+.vertical-space20{
+	padding-left:20px;
+}

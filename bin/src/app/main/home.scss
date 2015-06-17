@@ -1,0 +1,119 @@
+h5.news,
+h2.news {
+    color: #66c;
+    font-size: 14px;
+    background-color: #fff;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.home-container p {
+    margin: 10px 0px 10px 0px;
+}
+
+#questions {
+    margin: 15px 0;
+    padding: 5px 5px 10px 5px;
+    background: url(../../assets/images/bg_snapshot.gif)repeat-x;
+}
+
+#questions h3 {
+    color: #75797c;
+    font-size: 13px;
+    border-bottom: 1px solid #ccc;
+    margin: 10px 0px 0px 0px;
+    background-color: transparent;
+}
+
+.home-container a:visited {
+    color: #08C;
+    text-decoration: none;
+}
+
+.home-container a:link {
+    color: #08C;
+    text-decoration: none;
+}
+
+.home-container a:hover {
+    color: #336;
+    text-decoration: underline;
+}
+
+#inbox h2 {
+    color: #66c;
+    background-color: transparent;
+    padding-left: 40px;
+    padding-top: 5px;
+}
+
+.priceHistory {
+    padding-left: 5px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #ddf;
+}
+
+a.arrow {
+    padding: 5px 0 5px 19px;
+    background: transparent url(../../assets/images/arrow_right2.png) no-repeat left;
+}
+
+#espp {
+    background: url(../../assets/images/icon_espp1.gif) 5px 15px no-repeat;
+    border-top: 1px solid #ddf;
+    padding-top: 5px;
+}
+
+#espp h2 {
+    color: #66c;
+    background-color: transparent;
+    padding-left: 40px;
+    padding-top: 5px;
+}
+
+#benCal {
+    padding-top: 10px;
+    background: url(../../assets/images/icon_info.gif) 2px 10px no-repeat;
+    color: #66c;
+    font-weight: bold;
+    width: 275px;
+    border-top: 1px solid #ddf;
+    padding-top: 5px;
+    margin-top: 20px;
+}
+
+#benCal h2 {
+    color: #66c;
+    background-color: transparent;
+    padding-left: 40px;
+}
+
+#benCal ul {
+    padding: 15px 0px 0px 25px;
+}
+
+#benCal ul li {
+    list-style-image: url(../../assets/images/arrow_right2.png);
+    margin: 0 0 7px 4px;
+    padding: 0px;
+    padding-left: 1px;
+    line-height: 13px;
+    list-style-position: outside;
+}
+
+#benCal a:visited {
+    color: #65696c;
+}
+
+#benCal a:link {
+    color: #65696c;
+}
+
+#container {
+    background-color: #fff;
+    margin: 0px 0px 20px 0px;
+    padding: 5px 10px 10px 10px;
+    border: 1px solid #ddf;
+   /* min-width: 800px;*/
+}

@@ -1,0 +1,33 @@
+{
+  "status": true,
+  "data": {
+      "schedule": {
+          "columns": [
+              {
+                  "label": "Schedule begins Jun 06, 2015",
+                  "dataField": "submitDate"
+              },
+              {
+                  "label": "Start",
+                  "dataField": "starttime"
+              },
+              {
+                  "label": "Finish",
+                  "dataField": "finishtime"
+              }
+          ],
+          "data": [
+              {
+                  "submitDate": "Saturday",
+                  "starttime": "00:00AM",
+                  "finishtime": "00:00AM"
+              },
+              {
+                  "submitDate": "Sunday",
+                  "starttime": "00:00AM",
+                  "finishtime": "00:00AM"
+              }
+          ]
+      }
+  }
+}

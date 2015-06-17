@@ -1,0 +1,86 @@
+body {
+    margin: 10px auto;
+    background-color: #fff;
+    font: 12px 'Lucida Grande', Geneva, Verdana, Arial, Helvetica, sans-serif;
+    color: #777;
+}
+
+.footer {
+    color: #a3a3a3;
+    background-color: #3d3d3d;
+    font-size: 12px;
+}
+.avatar-icon{
+	border-radius:50%;
+}
+header .dropdown div {
+    color: #777;
+    font-size: 13px;
+}
+header figure {
+   line-height: 47px;
+}
+.mp-table .table > thead > tr > th {
+    border: none;
+    color: rgb(102, 102, 204);
+    font-weight: bold;
+    padding: 5px;
+    font-size: 14px;
+}
+
+.mp-table .icon-info-table .table > thead > tr > th div {
+    background: url('/assets/images/icon_inbox.gif') no-repeat;
+    width: 25px;
+    height: 28px;
+    float: left;
+    background-size: 100% 100%;
+    margin-right: 10px;
+}
+
+.mp-table .current-espp .table > thead > tr > th div {
+    background: url('/assets/images/icon_espp1.gif') no-repeat;
+}
+
+.current-espp {
+    padding-top: 10px;
+}
+
+.mp-table .table > tbody > tr > td {
+    border: none;
+    padding: 5px;
+    color: rgb(101, 105, 108);
+    font-weight: bold;
+}
+
+.mp-table .secondary-info-table .table {
+    border-right: 1px solid #ccccff;
+}
+
+.mp-table .secondary-info-table .table td {
+    border-bottom: 1px solid #ccccff;
+    padding: 5px;
+    color: rgb(101, 105, 108);
+    background-color: #e3e3fa;
+}
+.mp-table .secondary-info-table .table td:last-child {
+    background-color: white;
+}
+.mp-table .secondary-info-table .table th {
+    background-color: #ccccff;
+}
+.personal-info {
+    padding-bottom: 10px;
+    display: block;
+}
+.col-divider{
+	border-left:1px solid #ddf;
+	border-right:1px solid #ddf;
+}
+.text-xsmall{
+	font-size:11px;
+}
+/* Do not remove this comments bellow. It's the markers used by gulp-inject to inject
+   all your sass files automatically */
+
+// injector
+// endinjector

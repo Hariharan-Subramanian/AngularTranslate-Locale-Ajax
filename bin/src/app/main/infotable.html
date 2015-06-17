@@ -1,0 +1,15 @@
+<div  class="table-responsive">          
+ <table class="table">
+  <thead>
+    <tr>
+    <th colspan="2"><div></div>{{data.title}} </th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr ng-repeat="(propkey,propvalue) in data.data">
+      <td>{{propkey}}</td>
+      <td ng-show="!!togglePersonalInfo">{{propvalue}}</td>
+    </tr>
+  </tbody>
+</table>
+</div>

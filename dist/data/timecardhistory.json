@@ -1,0 +1,67 @@
+{
+    "status": true,
+    "message": "retrievedsuccessfully",
+    "data": {
+        "durationData": [{
+                "Pay-Period": "19/12/2010",
+                "Submission": "100.00",
+                "Status": "100.00",
+                "Approval-Status": "100.00",
+                "Approved-By": "100.00",
+                "Payroll-Status": "100.00",
+                "History-Details": "true",
+                "Total": "100.00"
+            }, {
+                "Pay-Period": "19/12/2010",
+                "Submission": "100.00",
+                "Status": "100.00",
+                "Approval-Status": "100.00",
+                "Approved-By": "100.00",
+                "Payroll-Status": "100.00",
+                "History-Details": "true",
+                "Total": "100.00"
+            }
+
+        ],
+        "historydetailsData": [{
+            "Wage-Type": "Regular",
+            "Total-Hours": "59,94"
+        }, {
+            "Wage-Type": "OTA - Salaried ",
+            "Total-Hours": "1,98"
+        }, {
+            "Wage-Type": "Holiday",
+            "Total-Hours": "42"
+        }, {
+            "Wage-Type": "Public Holiday Not Worked - Salaried",
+            "Total-Hours": "8,4"
+        }, {
+            "Wage-Type": "Sick Child",
+            "Total-Hours": "8,4"
+        }, {
+            "Wage-Type": "Holiday Carryover",
+            "Total-Hours": "25,2"
+        }, {
+            "Wage-Type": "Special Shutdown",
+            "Total-Hours": "16,8"
+        }, {
+            "Wage-Type": "Sick 100%",
+            "Total-Hours": "8,4"
+        }, {
+            "Wage-Type": "Night Worked - Salaried",
+            "Total-Hours": "2,39"
+        }, {
+            "Wage-Type": "Bereavement Leave",
+            "Total-Hours": "8,4"
+        }, {
+            "Wage-Type": "Birth of own child",
+            "Total-Hours": "16,8"
+        }, {
+            "Wage-Type": "Thanksgiving Shutdown Days (i)",
+            "Total-Hours": "25,2"
+        }, {
+            "Wage-Type": "Dec 31st Worked - Salaried",
+            "Total-Hours": "8,38"
+        }]
+    }
+}

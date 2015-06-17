@@ -1,0 +1,10 @@
+{
+ "HEADLINE": "Hello there!",
+ "LANG_DE_DE": "Lang: German",
+ "LANG_EN_US": "Lang: English",
+ "MYTIME":{
+ 	"TIMECARD":{
+		"HEADLINE": "Inner Hello there!"
+ 	}
+ }
+}

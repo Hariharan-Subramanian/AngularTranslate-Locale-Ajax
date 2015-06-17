@@ -1,0 +1,109 @@
+{
+    "status": true,
+    "message": "retrievedsuccessfully",
+    "data": {
+        "summaryData": [{
+            "label": "Current Paycheck",
+            "value": "$100.00"
+        }, {
+            "label": "vacation",
+            "value": "181.42 hours"
+        }, {
+            "label": "ESPP Deduction",
+            "value": "7%"
+        }],
+        "myinfoData": [{
+            "label": "Employee Number",
+            "value": "237043"
+        }, {
+            "label": "Annual Salary",
+            "value": "$122,148"
+        }, {
+            "label": "Job Level Individual",
+            "value": "4"
+        }, {
+            "label": "Date of Hire",
+            "value": "Apr 15, 2013"
+        }, {
+            "label": "Div./Dept.",
+            "value": "0056/0739"
+        }, {
+            "label": "JHR Contact",
+            "value": "hrhelpline@apple.com"
+        }, {
+            "label": "Payroll Contact",
+            "value": "notify_uat@mailtest.apple.com"
+        }],
+        "timeAwayData": [{
+            "label": "Pending Requests",
+            "value": "0"
+        }, {
+            "label": "Recently Approved Requests",
+            "value": "6"
+        }, {
+            "label": "Returned Requests",
+            "value": "0"
+        }],
+        "currentEsppData": [{
+            "label": "Period Number",
+            "value": "69"
+        }, {
+            "label": "Period Beginning Date",
+            "value": "Apr 1, 2015"
+        }, {
+            "label": "Period Ending Date",
+            "value": "Aug 31, 2015"
+        }, {
+            "label": "Period Beginning Value",
+            "value": "96.13 (USD)"
+        }],
+        "benefitData": [{
+            "label": "Holiday Schedule",
+            "value": ""
+        }, {
+            "label": "My Benefits Summary",
+            "value": "Apr 1, 2015"
+        }, {
+            "label": "401(k) - Schwab",
+            "value": ""
+        }, {
+            "label": "Period Beginning Value",
+            "value": ""
+        }],
+        "preferenceData": [{
+            "label": "Language",
+            "language": [
+                "german",
+                "spain",
+                "England"
+            ],
+            "langCode": [
+                "de_DE",
+                "en_EN",
+                "en_US"
+            ]
+        }],
+        "welcomeData": {
+            "label": "",
+            "value": ""
+        },
+        "ESPPData": {
+            "label": "",
+            "value": ""
+        },
+        "dummy": [{
+            "column1": "value1",
+            "column2": "value2",
+            "column3": "value3"
+        }, {
+            "column1": "value1",
+            "column2": "value2",
+            "column3": "value3"
+        }, {
+            "column1": "value1",
+            "column2": "value2",
+            "column3": "value3"
+        }]
+
+    }
+}

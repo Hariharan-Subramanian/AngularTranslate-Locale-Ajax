@@ -1,0 +1,24 @@
+{
+    "personalInfo": "Personal Information",
+    "amountInfo": "Amount Information",
+    "allLanguage": "All Language",
+    "generalInfo": "General Information",
+    "productInfo": "Product Information",
+    "productPrice": "Product Price",
+    "productRunningTime": "Product Running Time",
+    "depreciation": "Depreciation",
+    "totalAmount": "Total Amount",
+    "partialAmount": "Partial Amount",
+    "returnAmount": "Return Amount",
+    "age": "Age",
+    "dob": "Date of Birth",
+    "doj": "Date of Join",
+    "nom": "Number of Month",
+    "runningInformation": "Running Information",
+    "walkingInformation": "Walking Information",
+    "usedInformation": "Used Information",
+    "clearInformation": "Clear Information",
+    "Language": "Language",
+    "pageTitle":"Angular Translate with AJAX Request"
+
+}

@@ -1,0 +1,24 @@
+{
+    "personalInfo": "information Personnelle",
+    "amountInfo": "montant de l'information",
+    "allLanguage": "Toutes les langues",
+    "generalInfo": "Informations Générales",
+    "productInfo": "Information produit",
+    "productPrice": "Prix du produit",
+    "productRunningTime": "Running produit Temps",
+    "depreciation": "dépréciation",
+    "totalAmount": "Montant Total",
+    "partialAmount": "Montant partiel",
+    "returnAmount": "Retour Montant",
+    "age": "âge",
+    "dob": "Date de naissance",
+    "doj": "Date de Rejoignez",
+    "nom": "Nombre de mois",
+    "runningInformation": "Informations courir",
+    "walkingInformation": "Informations marcher",
+    "usedInformation": "Informations occasion",
+    "clearInformation": "Effacer les informations",
+    "Language": "langue",
+    "pageTitle":"Traduire angulaire avec AJAX Demande"
+
+}

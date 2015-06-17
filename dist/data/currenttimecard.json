@@ -1,0 +1,78 @@
+{
+    "weeksummary" : {
+        "weekid" : "Week 2",
+        "fromdate" : "May 23, 2015",
+        "todate": "May 29, 2015",
+        "payfromdate": "May 16, 2015",
+        "paytodate": "May 29, 2015",
+        "weekdata" : [{
+            "weekdate" : "Saturday, May 23, 2015",
+            "amount" : "00.00"
+        }, {
+            "weekdate" : "Sunday, May 24, 2015",
+            "amount" : "00.00"
+        }, {
+            "weekdate" : "Monday, May 25, 2015",
+            "amount" : "00.00"
+        }, {
+            "weekdate" : "Tuesday, May 26, 2015",
+            "amount" : "00.00"
+        }, {
+            "weekdate" : "Wednesday, May 27, 2015",
+            "amount" : "00.00"
+        }, {
+            "weekdate" : "Thursday, May 28, 2015",
+            "amount" : "00.00"
+        }, {
+            "weekdate" : "Friday, May 29, 2015",
+            "amount" : "00.00"
+        }]
+    },
+    "payperiod": {
+        "summarydata": [{
+            "summary": "Week 1: May 16, 2015 to May 22, 2015",
+            "amount": "00.00",
+            "approvalstatus": "Unapproved",
+            "paycodedetails": [{
+                "paycode": "Regular",
+                "amount": "00.00"
+            }]
+        }, {
+            "summary": "Week 2: May 23, 2015 to May 29, 2015",
+            "amount": "00.00",
+            "approvalstatus": "Unapproved",
+            "paycodedetails": [{
+                "paycode": "Regular",
+                "amount": "00.00"
+            }]
+        }],
+        "total": "00.00"
+    },
+    "timecardadjustments" :[{
+        "adjustmentdate": "-",
+        "paycode": "-",
+        "amount": "-",
+        "notes": "-"
+    }, {
+        "adjustmentdate": "-",
+        "paycode": "-",
+        "amount": "-",
+        "notes": "-"
+    }],
+    "statussummary" :[{
+        "role": "Initiator",
+        "name": "Aneja, Ashish (Ash)",
+        "payperiodstatus": "Unapproved",
+        "payperioddate": "-"
+    }, {
+        "role": "Initiator's Manager",
+        "name": "Battula, Raghunath N. (Raghu)",
+        "payperiodstatus": "Unapproved",
+        "payperioddate": "-"
+    }, {
+        "role": "Payroll",
+        "name": "Payroll Status",
+        "payperiodstatus": "No Signoff",
+        "payperioddate": "-"
+    }]
+}

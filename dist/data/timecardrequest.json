@@ -1,0 +1,63 @@
+{
+    "timecardadjustmentData": [{
+        "fromDateTime": "05/29/2015 2:27 PM",
+        "toDateTime": "06/05/2015 2:27 PM",
+        "total": "00.00",
+        "reason": 1
+    }, {
+        "fromDateTime": "05/29/2015 2:27 PM",
+        "toDateTime": "06/05/2015 2:27 PM",
+        "total": "10.00",
+        "reason": 4
+    }],
+    "approvalData": [{
+        "role": "Initiator",
+        "name": "Aneja, Ashish (Ash)",
+        "approvalstatus": "Pending",
+        "approvaldate": "Jun 4, 2015"
+    }, {
+        "role": "Initiator's Manager",
+        "name": "Li, Xu (Kevin)",
+        "approvalstatus": "Pending",
+        "approvaldate": "Jun 4, 2015"
+    }, {
+        "role": "Payroll",
+        "name": "",
+        "approvalstatus": "-",
+        "approvaldate": "-"
+    }],
+    "timecardadjustreasonData": [{
+        "adjustkey": 0,
+        "adjustvalue": "Select subject of reason"
+    }, {
+        "adjustkey": 1,
+        "adjustvalue": "Missed Punch - Due to Illness/Medical"
+    }, {
+        "adjustkey": 2,
+        "adjustvalue": "Missed Punch - Forgot"
+    }, {
+        "adjustkey": 3,
+        "adjustvalue": "Missed Punch - Unexpected Emergency"
+    }, {
+        "adjustkey": 4,
+        "adjustvalue": "Incorrect Punch"
+    }, {
+        "adjustkey": 5,
+        "adjustvalue": "System Offline"
+    }, {
+        "adjustkey": 6,
+        "adjustvalue": "Other"
+    }, {
+        "adjustkey": 7,
+        "adjustvalue": "Delete Punch - Did not work"
+    }, {
+        "adjustkey": 8,
+        "adjustvalue": "Missed Punch - Business Travel"
+    }, {
+        "adjustkey": 9,
+        "adjustvalue": "Delete Pay Code - Did Not Work"
+    }, {
+        "adjustkey": 10,
+        "adjustvalue": "Missed Pay Code"
+    }]
+}

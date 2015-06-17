@@ -1,0 +1,22 @@
+<div class="table-responsive" ng-if="data">
+    <table class="table">
+        <thead>
+            <tr>
+                <th colspan="2">
+                   <div></div>{{ titleTable | translate}} </th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr ng-repeat="propkey in data">
+                <td ng-if="link"> <a ng-class="iconLink?'arrow':''" ng-href='#' translate>{{propkey.label}}</a></td>
+                <td ng-if="!link" translate>{{propkey.label}}</td>
+                <td ng-show="!!togglePersonalInfo" ng-if="!selectSection">{{propkey.value}}</td>
+                <td ng-if="selectSection">
+                    <select ng-change="changeLocale(selectedlang)" ng-model="selectedlang" required  ng-init="selectedlang=propkey.langCode[0]">
+                       <option ng-repeat="data in propkey.language" value="{{propkey.langCode[$index]}}" >{{data}}</option>
+                    </select>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+</div>

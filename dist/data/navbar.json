@@ -1,0 +1,53 @@
+{
+    "navList": [
+        { "name": "Home", "url": "#", "className": "" , "mobIconClass" : "fa fa-home" },
+        { "name": "myMoney", "url": "#", "className": "", "mobIconClass" : "fa fa-money",
+            "sub": [
+                { "name": "Current Paycheck", "url": "#", "mobIconClass" : "fa fa-credit-card" }, 
+                { "name": "Total Rewards", "url": "#", "mobIconClass" : "fa fa-usd" }, 
+                { "name": "Direct Deposit", "url": "#", "mobIconClass" : "fa fa-credit-card" }, 
+                { "name": "Taxes", "url": "#", "mobIconClass" : "fa fa-file-text-o" }, 
+                { "name": "ESPP", "url": "#", "mobIconClass" : "fa fa-pencil" }
+            ]
+        }, 
+        { "name": "myInfo", "url": "#", "className": "dropdown", "mobIconClass" : "fa fa-info-circle",
+            "sub": [
+                { "name": "Personal Details", "url": "#", "mobIconClass" : "fa fa-user" }, 
+                { "name": "Work Authorizations", "url": "#", "mobIconClass" : "fa fa-user-secret" }, 
+                { "name": "Mobility Preferences", "url": "#", "mobIconClass" : "fa fa-certificate" }, 
+                { "name": "Qualifications", "url": "#", "mobIconClass" : "fa fa-book" }, 
+                { "name": "Languages Spoken", "url": "#", "mobIconClass" : "fa fa-language" }
+            ]
+        }, 
+        { "name": "myTime", "url": "#", "className": "dropdown", "mobIconClass" : "fa fa-clock-o",
+            "sub": [
+                { "name": "Time Card", "url": "#", "mobIconClass" : "fa fa-user-times",
+                    "subTabs" :[
+                        { "name": "Current Timecard", "url": "#", "mobIconClass" : "fa fa-user" }, 
+                        { "name": "Timecard History", "url": "#", "mobIconClass" : "fa fa-user" }, 
+                        { "name": "Historical Edits", "url": "#", "mobIconClass" : "fa fa-user" }
+                    ] 
+                }, 
+                { "name": "Schedule", "url": "#", "mobIconClass" : "fa fa-calendar-o",
+                    "subTabs" :[
+                        { "name": "Schedule", "url": "#", "mobIconClass" : "fa fa-user" }, 
+                        { "name": "Availability", "url": "#", "mobIconClass" : "fa fa-user" }, 
+                        { "name": "Availability History", "url": "#", "mobIconClass" : "fa fa-user" }
+                    ] 
+                }
+            ]
+        },
+        { "name": "Review", "url": "#", "className": "dropdown", "mobIconClass" : "fa fa-pencil-square-o",
+            "sub": [
+                { "name": "Current Review", "url": "#", "mobIconClass" : "fa fa-pencil-square-o" }, 
+                { "name": "Self Assessment", "url": "#", "mobIconClass" : "fa fa-street-view" }, 
+                { "name": "Request Feedback", "url": "#", "mobIconClass" : "fa fa-newspaper-o" }, 
+                { "name": "Provide Feedback", "url": "#", "mobIconClass" : "fa fa-file-pdf-o" }
+            ]
+        }, 
+        { "name": "Support", "url": "#", "className": "", "mobIconClass" : "fa fa-question-circle"}
+    ],
+    "footerData":{
+        "footerContent" : "© 2015 Apple Inc. AppleWeb is for the business use of employees, temporary agency workers, and independent contractors of Apple and its subsidiaries, and should not be distributed or discussed outside of Apple Inc."
+    }
+}

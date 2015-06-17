@@ -1,0 +1,242 @@
+{   
+    "personalData" : { 
+        "officename": "Apple Inc.",
+        "officeaddress" : "12545 Riata Vista Circle",
+        "officecity" : "Austin",
+        "officestate": "TX",
+        "officezipcode": "78727",
+        "net_payof": "$100",
+        "willbeavailableon" : "Jan 16, 2015",
+        "payment_made_by" : [
+        {
+            "payment_mode" : "Deposit to Checking Account",
+            "payment_status" : "Encrypt/Decrypt Failure",
+            "payment_value": "$100.00"
+        },
+        {
+            "payment_mode" : "Deposit to Savings Account",
+            "payment_status" : "Encrypt/Decrypt Failure",
+            "payment_value": "$200.00"
+        },
+        {
+            "payment_mode" : "Deposit to Savings Account",
+            "payment_status" : "Encrypt/Decrypt Failure",
+            "payment_value": "$300.00"
+        },
+        {
+            "payment_mode" : "Live Check",
+            "payment_status" : "1234567",
+            "payment_value": "$100.00"
+        }],
+        "payment_issued_to": "Ashish Aneja",
+        "address1" : "Add Line 1",
+        "address2" : "Add Line 2",  
+        "city" : "Cupertino",  
+        "state" : "CA",  
+        "zipcode" : "95014"
+    },
+    "employeeData": [
+        {
+            "Employee-Number": "237043",
+            "Department-Number": "00560739",
+            "Hire-Date": "Apr 15, 2013"
+        }
+
+   ],   
+    "durationData": [
+            {
+            "Period-Beginning ":"Mar 7, 2015 ", 
+            "Period-Ending ":"Mar 20, 2015 ",
+            "Pay-Date":"Mar 27, 2015 ", 
+            "Vacation-Hours":"170.32",
+            "Sick-Hours":"106.32"
+        }
+    ],
+
+    "taxData": [
+        {
+            "-" : "Federal",
+            "Tax-Status":"",
+            "Exemptions":"100.00", 
+            "(Extra-Tax)":"100.00"
+        }
+    ],
+    "earningsData": [
+            {
+            "" : "Salary",
+             " Rate" :" 1.00",
+              "Hours" : "", 
+              "This-Statement" : "$100.00", 
+              "Total-Year-to-Date": "$1,200.00"
+            },
+            {
+            "" : "Vacation Pay",
+             " Rate" :" 1.00",
+              "Hours" : "", 
+              "This-Statement" : "$100.00", 
+              "Total-Year-to-Date": "$1,200.00"
+            },
+            {
+            "" : "Gross Pay",
+             " Rate" :" 1.00",
+              "Hours" : "", 
+              "This-Statement" : "$100.00", 
+              "Total-Year-to-Date": "$1,200.00"
+            }
+    ],
+    "deductionData": [
+        {
+            "Taxes-Withheld" : "Federal Withholding",
+            "This-Statement" : "$100.00", 
+            "Total-Year-to-Date" : "$1,200.00"
+        },
+        {
+            "Taxes-Withheld" : "Federal Social Security Tax",
+            "This-Statement" : "$100.00", 
+            "Total-Year-to-Date" : "$1,200.00"
+        },
+        {
+            "Taxes-Withheld" : "Federal Medicare Tax",
+            "This-Statement" : "$100.00", 
+            "Total-Year-to-Date" : "$1,200.00"
+        },
+        {
+            "Taxes Withheld" : "California Withholding",
+            "This-Statement" : "$100.00", 
+            "Total-Year-to-Date" : "$1,200.00"
+        },
+        {
+            "Taxes-Withheld" : "California VDI",
+            "This-Statement" : "$100.00", 
+            "Total-Year-to-Date" : "$1,200.00"
+        },
+        {
+            "Taxes-Withheld" : "Total Taxes Withheld",
+            "This-Statement" : "$100.00", 
+            "Total-Year-to-Date" : "$1,200.00"
+        }
+    ],
+
+    "pretaxData": [
+        {
+            "Pre-Tax" : "Health Insurance",
+            "%" : "1",
+            "This-Statement" : "$100.00", 
+            "Total-Year-to-Date" : "$1,200.00"
+        },
+        {
+            "Pre-Tax" : "Vision",
+            "%" : "1",
+            "This-Statement" : "$100.00", 
+            "Total-Year-to-Date" : "$1,200.00"
+        },
+        {
+            "Pre-Tax" : "Ltd Purpose Flexible Spending Acct",
+            "%" : "1",
+            "This-Statement" : "$100.00", 
+            "Total-Year-to-Date" : "$1,200.00"
+        },
+        {
+            "Pre-Tax" : "Accidental Death and Dismemberment Insurance",
+            "%" : "1",
+            "This-Statement" : "$100.00", 
+            "Total-Year-to-Date" : "$1,200.00"
+        },
+        {
+            "Pre-Tax" : "Health Savings Account",
+            "%" : "1",
+            "This-Statement" : "$100.00", 
+            "Total-Year-to-Date" : "$1,200.00"
+        },
+        {
+            "Pre-Tax" : "Traditional 401(k)-Regular Contribution",
+            "%" : "1",
+            "This-Statement" : "$100.00", 
+            "Total-Year-to-Date" : "$1,200.00"
+        },
+        {
+            "Pre-Tax" : "Total Pre-Tax Deductions",
+            "%" : "1",
+            "This-Statement" : "$100.00", 
+            "Total-Year-to-Date" : "$1,200.00"
+        }       
+    ],
+
+    "posttaxData": [
+        {
+            "Post-Tax": "Post-Tax Supplemental Life", 
+            "%" : "1",
+            "This-Statement" : "$100.00",
+            "Total-Year-to-Date" : "$1,200.00"
+        },
+        {
+            "Post-Tax": "Dependent Life Insurance", 
+            "%" : "1",
+            "This-Statement" : "$100.00",
+            "Total-Year-to-Date" : "$1,200.00"
+        },
+        {
+            "Post-Tax": "Stock Purchase (ESPP)", 
+            "%" : "1",
+            "This-Statement" : "$100.00",
+            "Total-Year-to-Date" : "$1,200.00"
+        },
+        {
+            "Post-Tax": "Accidental Death and Dismemberment Insurance", 
+            "%" : "1",
+            "This-Statement" : "$100.00",
+            "Total-Year-to-Date" : "$1,200.00"
+        },
+        {
+            "Post-Tax": "Caffe Mac - Cupertino", 
+            "%" : "1",
+            "This-Statement" : "$100.00",
+            "Total-Year-to-Date" : "$1,200.00"
+        },
+        {
+            "Post-Tax": "Total Post-Tax Deductions", 
+            "%" : "1",
+            "This-Statement" : "$100.00",
+            "Total-Year-to-Date" : "$1,200.00"
+        }        
+    ],
+
+    "otherinfoData": [
+       {
+            "Other-Information" : "ESPP Period 1 - Plan Period to Date Total (Feb - Jul)", 
+            "This-Statement" : "$100.00", 
+            "Total-Year-to-Date" : "$1,200.00"
+       },
+       {
+            "Other-Information" : "ESPP Rollover", 
+            "This-Statement" : "$100.00", 
+            "Total-Year-to-Date" : "$1,200.00"
+       },
+       {
+            "Other-Information" : "Employee GTLI Taxable *", 
+            "This-Statement" : "$100.00", 
+            "Total-Year-to-Date" : "$1,200.00"
+       },
+       {
+            "Other-Information" : "Employee GTLI Taxable - Retro *", 
+            "This-Statement" : "$100.00", 
+            "Total-Year-to-Date" : "$1,200.00"
+       }    
+    ],
+
+    "netpayData": [
+        {
+           "label1" : "Net Pay",
+           "label2" : "$100.00", 
+           "label3" : "$1,200.00"
+        }       
+    ],
+
+    "federalData": [
+        {
+           "label1" : "Your federal taxable wages are ",
+           "label2" : "$100.00",
+           "label3" : "$1,200.00"
+        }
+    ]
+}

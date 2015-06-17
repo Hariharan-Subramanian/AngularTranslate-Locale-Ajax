@@ -1,0 +1,33 @@
+<div class="home-container" id="container">
+    <div ng-controller="MainCtrl as vm">
+        <div class="well text-center">
+            <h3> {{ 'pageTitle' | translate }}</h3></div>
+        <div class="top-space20"></div>
+        <div class="row">
+            <div class="col-sm-4 col-md-4 col-md-offset-2 col-sm-offset-2 panel-padding  ">
+                <div locale-table link="true" toggle-personal-info="true" title-table="'personalInfo'" data="vm.tableData3">
+                </div>
+            </div>
+            <div class="col-sm-4 col-md-4 col-md-offset-1 col-sm-offset-1 panel-padding empty_border">
+                <div locale-table link="true" toggle-personal-info="true" title-table="'generalInfo'" data="vm.tableData2"></div>
+            </div>
+        </div>
+        <div class="top-space20"></div>
+        <div class="row">
+            <div class="col-sm-4 col-md-4 col-md-offset-2 col-sm-offset-2 panel-padding ">
+                <div locale-table data="vm.tableData1" toggle-personal-info="true" title-table="'productInfo'"></div>
+            </div>
+            <div class="col-sm-4 col-md-4 col-md-offset-1 col-sm-offset-1 panel-padding">
+                <div locale-table title-table="'amountInfo'" toggle-personal-info="true" data="vm.tableData4">
+                </div>
+            </div>
+        </div>
+        <div class="top-space20"></div>
+        <div class="row">
+            <div class="col-sm-4 col-md-4 col-sm-offset-4 panel-padding empty_border">
+                <div locale-table select-section="true" title-table="'allLanguage'" data="vm.tableData5" callback-fn="vm.changelanguage(arg1)">
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

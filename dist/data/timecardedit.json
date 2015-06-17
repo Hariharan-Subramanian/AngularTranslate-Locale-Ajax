@@ -1,0 +1,25 @@
+{
+    "timepairsData": [{
+        "payCode": "Time Worked",
+        "fromDateTime": "05/29/2015 2:27 PM",
+        "toDateTime": "05/29/2015 2:27 PM",
+        "location": "Santa Clara Valley, CA",
+        "amount": "0"
+
+    }],
+    "timepairsSummaryData": [{
+        "payCode": "Time Worked",
+        "amount": "20.00"
+    }, {
+        "payCode": "Time Worked",
+        "amount": "00.00"
+    }, {
+        "payCode": "Time Worked",
+        "amount": "23.00"
+    },
+    {
+        "payCode": "Time Worked",
+        "amount": "46.00",
+        "isSummaryRow":true
+    }]
+}

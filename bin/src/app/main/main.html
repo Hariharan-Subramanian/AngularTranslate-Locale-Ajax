@@ -1,0 +1,61 @@
+<div class="container-fluid home-container" ng-controller="MainCtrl as vm">
+  <mp-header> </mp-header>
+  <div class="row" id="container">
+  <div class="col-sm-4 col-md-4 ">
+      <h5 class="news">Welcome to myPage!</h5>
+      <p>myPage is a self-service tool that allows you to view your compensation, update personal information, and more.</p>
+      <h5 class="news"><a target="_blank"  href="https://hrweb.apple.com/US/en/subtopic/604">2015 Open Enrollment is here.</a></h5>
+      <p>Change or confirm your benefits by November 14.</p>
+      <h5 class="news">Vacation Cash Out ends October 31.</h5>
+      <p>Eligible employees can cash out one day of accrued vacation day for each day taken between June 1 and the end of October. Submit requests by November 14.</p>
+      <h5 class="news">Keep your profile current.</h5>
+      <p>
+        Now you can add the languages you speak and more on the the newly updated myInfo tab. <a href="https://mypage.apple.com/myPage/myInfo.action">Take a minute to get current</a>.
+      </p>
+      <div id="questions">
+        <h3> Paycheck Questions?</h3> Visit the <a target="_blank" href="http://financeweb.apple.com/payroll">Payroll website</a> or contact the <a href="mailto:hrhelpline@apple.com">HR HelpLine</a>.
+        <h3>Time Away Questions?</h3> View <a target="_blank" href="https://hrweb.cdn-apple.com/US/en"> Time Away</a> information on HRWeb or email the <a target="_blank" href="mailto:hrhelpline@apple.com">HR HelpLine</a>.
+        <h3>Benefits Questions?</h3> View general <a target="_blank" href="https://hrweb.cdn-apple.com/US/en/subtopic/45">benefits</a> information on HRWeb, log in to the <a target="_blank" href="http://benefits.apple.com">Benefits Enrollment Tool</a>, or email the <a target="_blank" href="mailto:hrhelpline@apple.com">HR HelpLine</a>.
+      </div>
+    </div>
+    <div class="col-sm-4 col-md-4 mp-table col-divider">
+      <div mp-info-table class="icon-info-table" toggle-personal-info="true" data="vm.timeAwayData">
+      </div>
+      <div class="priceHistory">
+        <a href="javascript:;" class="arrow"> Time Away History</a>
+      </div>
+      <div mp-info-table class="icon-info-table current-espp" toggle-personal-info="true" data="vm.currentEsppData">
+      </div>
+      <div class="link">
+        <a href="https://hrweb.cdn-apple.com/sites/default/files/US_ESPP_Price_History_2015.pdf" target="_blank" class="arrow"> ESPP Tax Info and Price History </a>
+      </div>
+      <div id="benCal">
+        <h2 class="news">Benefits Information</h2>
+        <ul>
+          <li><a href="https://hrweb.apple.com/subtopic/431" target="_blank">Holiday Schedule</a></li>
+          <li><a href="http://benefits.apple.com/" target="_blank">My Benefits Summary</a></li>
+          <li><a href="http://www.apple401k.com/" target="_blank">401(k) - Schwab</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="col-sm-4 col-md-4 mp-table">
+      <div ng-click="vm.togglePersonalInfo()">
+        <span class="personal-info" ng-show="vm.showPersonalInfo"><a href="javascript:;">
+          <img src="/assets/images/opened.gif" alt="open widget" width="13" height="15" border="0" class="hidearrow">
+          Hide Personal Info</a></span>
+          <span class="personal-info" ng-show="!vm.showPersonalInfo"><a href="javascript:;">
+            <img src="/assets/images/closed.gif" alt="open widget" width="13" height="15" border="0" class="hidearrow">
+            Show Personal Info</a></span>
+          </div>
+          <div mp-info-table class="secondary-info-table" toggle-personal-info="vm.showPersonalInfo" data="vm.summaryData">
+          </div>
+          <div mp-info-table class="secondary-info-table" toggle-personal-info="vm.showPersonalInfo" data="vm.infoData">
+          </div>
+          <span class="text-xsmall">
+           *  
+           If applicable, this is your adjusted date of hire.
+         </span>
+       </div>
+     </div>
+     <mp-footer></mp-footer>
+   </div>

@@ -1,0 +1,65 @@
+{
+    "data": {
+        "tableData1": [{
+            "label": "productPrice",
+            "value": "100.00"
+        }, {
+            "label": "productRunningTime",
+            "value": "181.42 hours"
+        }, {
+            "label": "depreciation",
+            "value": "7"
+        }],
+        "tableData4": [{
+            "label": "totalAmount",
+            "value": "0"
+        }, {
+            "label": "partialAmount",
+            "value": "6"
+        }, {
+            "label": "returnAmount",
+            "value": "0"
+        }],
+        "tableData3": [{
+            "label": "age",
+            "value": "69"
+        }, {
+            "label": "dob",
+            "value": "Apr 1, 2015"
+        }, {
+            "label": "doj",
+            "value": "Aug 31, 2015"
+        }, {
+            "label": "nom",
+            "value": "96"
+        }],
+        "tableData2": [{
+            "label": "runningInformation",
+            "value": ""
+        }, {
+            "label": "walkingInformation",
+            "value": ""
+        }, {
+            "label": "usedInformation",
+            "value": ""
+        }, {
+            "label": "clearInformation",
+            "value": ""
+        }],
+        "tableData5": [{
+            "label": "Language",
+            "language": [
+                "England",
+                "spain",
+                "France"
+            ],
+            "langCode": [
+                "en_EN",
+                "sp_SP",
+                "fr_FR"
+            ]
+        }]
+
+
+    }
+}
